@@ -330,3 +330,19 @@ p { margin-top: 12px; font-size: clamp(1rem, 1.6vw, 1.25rem); color: #f3d6bd; ma
   font-size: 0.95rem;
   font-weight: 500;
 }
+
+.nav-links {
+  display: flex; gap: 1.5rem;
+  font-family: var(--f-display), sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.nav-link {
+  color: rgba(243, 214, 189, 0.7);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--cream);
+}

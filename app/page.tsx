@@ -26,6 +26,10 @@ export default function Home() {
 
       <header className="nav">
         <a href="#top" className="logo" aria-label="Maison Rouge home">♛ Maison Rouge</a>
+        <div className="nav-links">
+          <a href="#hero" className="nav-link">About</a>
+          <a href="#shop" className="nav-link">Contact</a>
+        </div>
       </header>
 
       <main id="top">
