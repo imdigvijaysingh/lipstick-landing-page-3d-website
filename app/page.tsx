@@ -1,3 +1,4 @@
+import Link from "next/link";
 import LipstickStage from "@/components/LipstickStage";
 import Reveal from "@/components/Reveal";
 import ShadePicker from "@/components/ShadePicker";
@@ -25,10 +26,10 @@ export default function Home() {
       <LipstickStage />
 
       <header className="nav">
-        <a href="#top" className="logo" aria-label="Maison Rouge home">♛ Maison Rouge</a>
+        <Link href="/" className="logo" aria-label="Maison Rouge home">♛ Maison Rouge</Link>
         <div className="nav-links">
-          <a href="#hero" className="nav-link">About</a>
-          <a href="#shop" className="nav-link">Contact</a>
+          <Link href="/about" className="nav-link">About</Link>
+          <Link href="/#shop" className="nav-link">Contact</Link>
         </div>
       </header>
 
