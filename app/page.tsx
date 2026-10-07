@@ -60,9 +60,31 @@ export default function Home() {
           </Reveal>
         </section>
 
-        <section className="sec bottom" id="shop">
+        <section className="sec bottom" id="shop" style={{ flexDirection: "column", paddingBottom: "10vh" }}>
           <Reveal>
-            <h2>Rule the room.</h2>
+            <h2 style={{ marginBottom: "2rem" }}>Rule the room.</h2>
+            
+            <div style={{
+              display: "flex", 
+              gap: "1.5rem", 
+              flexWrap: "wrap", 
+              justifyContent: "center",
+              width: "100%",
+              maxWidth: "800px",
+              margin: "0 auto"
+            }}>
+              <a href="tel:9458082654" className="cta-card">
+                <span className="cta-card-icon">📞</span>
+                <span className="cta-card-title">Call Us</span>
+                <span className="cta-card-sub">+91 94580 82654</span>
+              </a>
+
+              <a href="https://wa.me/919458082654" target="_blank" rel="noopener noreferrer" className="cta-card">
+                <span className="cta-card-icon">💬</span>
+                <span className="cta-card-title">WhatsApp</span>
+                <span className="cta-card-sub">+91 94580 82654</span>
+              </a>
+            </div>
           </Reveal>
         </section>
       </main>

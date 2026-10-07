@@ -293,3 +293,40 @@ p { margin-top: 12px; font-size: clamp(1rem, 1.6vw, 1.25rem); color: #f3d6bd; ma
 .pp-accordions summary::-webkit-details-marker { display: none; }
 .pp-accordions p { margin: 16px 0 0; font-size: 0.9rem; color: #555; line-height: 1.6; }
 
+
+.cta-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(216, 178, 122, 0.2);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  text-decoration: none;
+  color: var(--cream);
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+.cta-card:hover {
+  background: rgba(216, 178, 122, 0.12);
+  border-color: var(--gold);
+  transform: translateY(-4px);
+}
+.cta-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+.cta-card-title {
+  font-family: var(--f-display), sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.05em;
+}
+.cta-card-sub {
+  color: rgba(243, 214, 189, 0.7);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
