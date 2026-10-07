@@ -13,6 +13,12 @@ export default function AboutPage() {
       </header>
 
       <main style={{ padding: "0 clamp(20px, 6vw, 96px) 10vh", maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "4rem", flex: 1 }}>
+        <div style={{ alignSelf: "flex-start", marginTop: "1rem", marginBottom: "-2rem", fontSize: "0.85rem", color: "var(--ink)", fontWeight: 600, opacity: 0.8, letterSpacing: "0.05em" }}>
+          <Link href="/" style={{ color: "var(--ruby)", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.opacity = "0.7"} onMouseLeave={(e) => e.currentTarget.style.opacity = "1"}>Home</Link>
+          <span style={{ margin: "0 0.5rem" }}>/</span>
+          <span>About</span>
+        </div>
+
         <section style={{ textAlign: "center", animation: "rise 1s ease forwards" }}>
           <h1 style={{ fontSize: "clamp(2.5rem, 6vw, 4rem)", fontFamily: "var(--f-display)", color: "var(--ruby)", marginBottom: "1rem" }}>
             The Essence of Luxury
