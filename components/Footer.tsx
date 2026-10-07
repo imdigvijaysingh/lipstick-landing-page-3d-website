@@ -50,18 +50,18 @@ export default function Footer() {
             {modalContent === "terms" && (
               <>
                 <h2 style={{ marginBottom: "1.2rem", fontFamily: "var(--f-display)", fontSize: "1.3rem" }}>Terms of Service</h2>
-                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.85rem", color: "rgba(250, 246, 240, 0.8)" }}>Welcome to Maison Rouge. By accessing our website, you agree to these Terms of Service. These terms govern your use of our platform, our products, and any services we provide.</p>
-                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.85rem", color: "rgba(250, 246, 240, 0.8)" }}>All content on this site, including images, text, and 3D models, is the property of Maison Rouge. You may not reproduce, distribute, or use this content without explicit permission.</p>
-                <p style={{ lineHeight: 1.5, fontSize: "0.85rem", color: "rgba(250, 246, 240, 0.8)" }}>We reserve the right to modify these terms at any time. Continued use of the site constitutes your acceptance of the revised terms.</p>
+                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.8rem", maxWidth: "none", color: "rgba(250, 246, 240, 0.8)" }}>Welcome to Maison Rouge. By accessing our website, you agree to these Terms of Service. These terms govern your use of our platform, our products, and any services we provide.</p>
+                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.8rem", maxWidth: "none", color: "rgba(250, 246, 240, 0.8)" }}>All content on this site, including images, text, and 3D models, is the property of Maison Rouge. You may not reproduce, distribute, or use this content without explicit permission.</p>
+                <p style={{ lineHeight: 1.5, fontSize: "0.8rem", maxWidth: "none", color: "rgba(250, 246, 240, 0.8)" }}>We reserve the right to modify these terms at any time. Continued use of the site constitutes your acceptance of the revised terms.</p>
               </>
             )}
 
             {modalContent === "privacy" && (
               <>
                 <h2 style={{ marginBottom: "1.2rem", fontFamily: "var(--f-display)", fontSize: "1.3rem" }}>Privacy Policy</h2>
-                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.85rem", color: "rgba(250, 246, 240, 0.8)" }}>At Maison Rouge, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information.</p>
-                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.85rem", color: "rgba(250, 246, 240, 0.8)" }}>We may collect basic analytics data (such as browser type and interaction with our 3D experiences) to improve our website performance and user experience.</p>
-                <p style={{ lineHeight: 1.5, fontSize: "0.85rem", color: "rgba(250, 246, 240, 0.8)" }}>We will never sell your personal data to third parties. If you have any questions about how we handle your data, please contact us.</p>
+                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.8rem", maxWidth: "none", color: "rgba(250, 246, 240, 0.8)" }}>At Maison Rouge, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information.</p>
+                <p style={{ marginBottom: "1rem", lineHeight: 1.5, fontSize: "0.8rem", maxWidth: "none", color: "rgba(250, 246, 240, 0.8)" }}>We may collect basic analytics data (such as browser type and interaction with our 3D experiences) to improve our website performance and user experience.</p>
+                <p style={{ lineHeight: 1.5, fontSize: "0.8rem", maxWidth: "none", color: "rgba(250, 246, 240, 0.8)" }}>We will never sell your personal data to third parties. If you have any questions about how we handle your data, please contact us.</p>
               </>
             )}
           </div>
