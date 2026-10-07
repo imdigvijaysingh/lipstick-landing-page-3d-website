@@ -22,13 +22,17 @@ export default function Footer() {
       </footer>
 
       {modalContent && (
-        <div style={{
+        <div 
+          onClick={() => setModalContent(null)}
+          style={{
           position: "fixed", top: 0, left: 0, right: 0, bottom: 0,
           backgroundColor: "rgba(0, 0, 0, 0.8)", backdropFilter: "blur(5px)",
           display: "flex", justifyContent: "center", alignItems: "center", zIndex: 9999,
           padding: "2rem"
         }}>
-          <div style={{
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            style={{
             background: "#2B1B1B", color: "#FAF6F0", padding: "3rem 2rem 2rem", borderRadius: "12px",
             maxWidth: "600px", width: "100%", maxHeight: "80vh", overflowY: "auto", position: "relative",
             boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
