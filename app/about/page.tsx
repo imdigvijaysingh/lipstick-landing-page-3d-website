@@ -27,10 +27,10 @@ export default function AboutPage() {
             A Message from the Founder
           </h2>
           <div style={{ color: "var(--ink)", fontSize: "1.05rem", lineHeight: 1.8, display: "flex", flexDirection: "column", gap: "1rem", fontWeight: 500 }}>
-            <p style={{ maxWidth: "none" }}>
+            <p style={{ maxWidth: "none", color: "var(--ink)" }}>
               Welcome to Maison Rouge. When I started this journey, I noticed that true luxury in beauty was often compromised by performance. You either had a beautiful object that faded within hours, or a long-wear product that felt dry and uninspired.
             </p>
-            <p style={{ maxWidth: "none" }}>
+            <p style={{ maxWidth: "none", color: "var(--ink)" }}>
               I wanted to bridge that gap. Beauty that stays, boldness that slays. That is our promise to you. Every product we design is meticulously crafted to make you feel unstoppable from the moment you apply it, until the end of your night.
             </p>
           </div>
