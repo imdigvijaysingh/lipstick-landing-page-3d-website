@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Unbounded, Manrope } from "next/font/google";
 import "./globals.css";
 
-const display = Unbounded({ subsets: ["latin"], variable: "--f-display", weight: ["500", "700"] });
+const display = Unbounded({ subsets: ["latin"], variable: "--f-display" });
 const body = Manrope({ subsets: ["latin"], variable: "--f-body" });
 
 const SITE = "https://maisonrouge.example"; // TODO: your domain
