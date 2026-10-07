@@ -118,7 +118,7 @@ function Collection() {
     const zr = lerp(0.8, 1.3, k);
     // fan pivot sits at the bottom-right corner; Rc is the radius lipsticks are centred on
     const px = vw * lerp(0.5, 0.39, k);
-    const py = -vh * lerp(0.46, 0.5, k);
+    const py = -vh * lerp(0.65, 0.5, k);
     const Rc = lerp(vw * 1.1, vh * 0.78, k);
     const { pointer } = state;
 
